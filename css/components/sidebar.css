@@ -1,0 +1,38 @@
+.sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #633A82;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+.page-content {
+  margin-left: 200px;
+}
+.sidebar ul {
+  list-style: none;
+  padding-left: 10px;
+}
+.sidebar li {
+  border: 0.5px solid rgba(255,255,255,0.2);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.sidebar li:hover {
+  background-color: #53b0aa;
+}
+.sidebar a {
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+}
+.card-sidebar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: none;
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin-left: -10px;
+}
